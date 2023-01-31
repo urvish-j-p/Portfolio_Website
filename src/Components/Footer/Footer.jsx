@@ -9,6 +9,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 const Footer = () => {
 
+  const currentYear = new Date().getFullYear();
   
   return (
     <div className="footer">
@@ -26,7 +27,7 @@ const Footer = () => {
             <Twitter color="white" size={"3rem"} />
           </a>
         </div>
-        <span className="copyright">Copyright &copy; 2022 urvishmeghani111@gmail.com</span>
+        <span className="copyright">Copyright &copy; {currentYear} urvishmeghani111@gmail.com</span>
       </div>
     </div>
   );

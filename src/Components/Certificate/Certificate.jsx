@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import WebDevelopment from "../../img/WebDevelopment.png";
+import WebDevelopment from "../../img/WebDevelopment.jpg";
 import Python from "../../img/Python.png";
 import C from "../../img/C.png";
 import Cpp from "../../img/Cpp.png";
@@ -15,21 +15,21 @@ const Testimonials = () => {
       img: WebDevelopment,
     },
     {
-      img: Python,
-    },
-    {
       img: C,
     },
     {
       img: Cpp,
+    },
+    {
+      img: Python,
     },
   ];
 
   return (
     <div className="t-wrapper">
       <div className="t-heading">
-        <span>My academic </span>
-        <span>Certification</span>
+        {/* <span>My academic </span> */}
+        <span>Certificates</span>
         {/* <span>from me</span> */}
         <div
           className="blur t-blur1"

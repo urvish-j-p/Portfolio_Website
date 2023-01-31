@@ -28,8 +28,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I am</span>
           <span>Urvish Prajapati</span>
           <span>
-            Frontend Developer with high level of experience in Web Development
-            and ReactJS, producing the quality work.
+            A passionate Full Stack Developer having good amount of experience in ReactJS, producing the quality work.
           </span>
         </div>
 
@@ -39,7 +38,7 @@ const Intro = () => {
         </Link>
         </button> */}
         <div className="i-icons">
-          <a href="https://github.com/urvishjp" target="_blank">
+          <a href="https://github.com/UrvishJP" target="_blank">
             <img src={Github} alt="" />
           </a>
           <a href="https://www.linkedin.com/in/urvish-j-p/" target="_blank">
@@ -56,7 +55,7 @@ const Intro = () => {
         <img src={boy} alt="" />
         <img src={glassesimoji} alt="" />
         <div style={{ top: " -4%", left: "68%" }} className="floating-div">
-          <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
+          <FloatingDiv image={Crown} txt1="MERN" txt2="Developer" />
         </div>
         <div style={{ top: "18rem", left: "0rem" }} className="floating-div">
           <FloatingDiv image={thumbup} txt1="ReactJS" txt2="Developer" />

@@ -23,12 +23,11 @@ const Services = () => {
          <span style={{ color: darkMode ? "white" : "" }}>My</span>
          <span>Skills</span>
          <span>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo eius  
-          <br />
-          recusandae, vitae sapiente et blanditiis 
+          {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo eius   */}
+          These are the techs that I have worked upon and download my resume here. 
          </span>
          <a href={Resume} download>
-         <button className="button s-button">Download CV</button>
+         <button className="button s-button">Resume</button>
          </a>
          <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       
@@ -41,8 +40,8 @@ const Services = () => {
           <div style={{left: '14rem'}}>
             <Card
             emoji = {HeartEmoji}
-            heading = {'Web Development'}
-            detail = {"HTML, CSS and JavaScript"}
+            heading = {'MERN Stack'}
+            detail = {"MongoDB, ExpressJS, ReactJS & NodeJS"}
             />
           </div>
 
@@ -51,8 +50,8 @@ const Services = () => {
           <div style={{top: "12rem", left:"-4rem"}}>
             <Card
             emoji={Glasses}
-            heading={"Python"}
-            detail={"Python Libraries and Django"}
+            heading={"Languages"}
+            detail={"C, C++, Python & JavaScript"}
             />
 
           </div>
@@ -62,8 +61,8 @@ const Services = () => {
           <div style={{top: "19rem", left:"12rem"}}>
           <Card
             emoji={Humble}
-            heading={"ReactJS"}
-            detail={"JavaScript Library"}
+            heading={"Others"}
+            detail={"HTML, CSS, Bootstrap, Tailwind CSS, Redux and Redux Thunk"}
             />
 
           </div>
