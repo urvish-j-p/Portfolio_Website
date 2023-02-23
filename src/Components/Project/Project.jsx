@@ -30,22 +30,22 @@ const Portfolio = () => {
             href="https://stack-overflow-by-urvish.netlify.app/"
             target="_blank"
           >
-            <img src={StackOverflow} alt="" style={{ width: "370px" }} />
+            <img src={StackOverflow} alt="" style={{ width: "350px" }} />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://weather-24x7.netlify.app/" target="_blank">
-            <img src={WeatherApp} alt="" style={{ width: "380px" }} />
+            <img src={WeatherApp} alt="" style={{ width: "360px" }} />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://textutils-by-urvish.netlify.app/" target="_blank">
-            <img src={TextUtils} alt="" style={{ width: "370px" }} />
+            <img src={TextUtils} alt="" style={{ width: "354px" }} />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://note-keeper-by-urvish.netlify.app/" target="_blank">
-            <img src={Keeper} alt="" style={{ width: "390px" }} />
+            <img src={Keeper} alt="" style={{ width: "370px" }} />
           </a>
         </SwiperSlide>
       </Swiper>
