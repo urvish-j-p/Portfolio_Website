@@ -30,14 +30,16 @@ const Contact = () => {
             name="name"
             className="user"
             placeholder="Name"
+            required
           />
           <input
             type="email"
             name="email"
             className="user"
             placeholder="Email"
+            required
           />
-          <textarea name="message" className="user" placeholder="Message" />
+          <textarea name="message" className="user" placeholder="Message" required/>
           <input type="submit" value="Send" className="button" />
           <div
             className="blur c-blur1"
