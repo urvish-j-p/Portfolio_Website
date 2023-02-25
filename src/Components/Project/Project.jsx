@@ -2,6 +2,7 @@ import React from "react";
 import "./Project.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import StackOverflow from "../../img/StackOverflow.png";
+import eMart from "../../img/eMart.png";
 import WeatherApp from "../../img/WeatherApp.png";
 import TextUtils from "../../img/TextUtils.png";
 import Keeper from "../../img/Keeper.png";
@@ -25,6 +26,14 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+        <SwiperSlide>
+          <a
+            href="https://emart-by-urvish.netlify.app/"
+            target="_blank"
+          >
+            <img src={eMart} alt="" style={{ width: "350px", height:"213px" }} />
+          </a>
+        </SwiperSlide>
         <SwiperSlide>
           <a
             href="https://stack-overflow-by-urvish.netlify.app/"
