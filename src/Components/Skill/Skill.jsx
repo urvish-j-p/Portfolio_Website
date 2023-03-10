@@ -62,7 +62,7 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={"Others"}
-            detail={"HTML, CSS, Bootstrap, Tailwind CSS, Redux and Redux Thunk"}
+            detail={"HTML, CSS, Bootstrap, Tailwind CSS, Redux, Redux Thunk, NextJS, Firebase, Git and GitHub"}
             />
 
           </div>
