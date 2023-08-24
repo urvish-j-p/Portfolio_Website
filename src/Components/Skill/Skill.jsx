@@ -41,7 +41,7 @@ const Services = () => {
             <Card
             emoji = {HeartEmoji}
             heading = {'MERN Stack'}
-            detail = {"MongoDB, ExpressJS, ReactJS & NodeJS"}
+            detail = {"MongoDB, Express.js, React.js & Node.js"}
             />
           </div>
 
@@ -62,15 +62,11 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={"Others"}
-            detail={"HTML, CSS, Bootstrap, Tailwind CSS, Redux, Redux Thunk, NextJS, Firebase, Git and GitHub"}
+            detail={"HTML, CSS, Bootstrap, Tailwind CSS, Redux, Redux Thunk, Next.js, Firebase, Git & GitHub"}
             />
-
           </div>
           <div className="blur s-blur2" style={{background: "var(--purple)"}}>
-
           </div>
-
-          
          </div>
     </div>
   )

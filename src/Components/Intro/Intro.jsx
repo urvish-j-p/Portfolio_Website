@@ -28,7 +28,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I am</span>
           <span>Urvish Prajapati</span>
           <span>
-            A passionate Full Stack Developer having good amount of experience in ReactJS, producing the quality work.
+            A passionate Full Stack Developer having good amount of experience in React.js & Redux, producing the quality work.
           </span>
         </div>
 
@@ -55,10 +55,10 @@ const Intro = () => {
         <img src={boy} alt="" />
         <img src={glassesimoji} alt="" />
         <div style={{ top: " -4%", left: "68%" }} className="floating-div">
-          <FloatingDiv image={Crown} txt1="MERN" txt2="Developer" />
+          <FloatingDiv image={Crown} txt1="MERN Stack" txt2="Developer" />
         </div>
         <div style={{ top: "18rem", left: "0rem" }} className="floating-div">
-          <FloatingDiv image={thumbup} txt1="ReactJS" txt2="Developer" />
+          <FloatingDiv image={thumbup} txt1="React.js" txt2="Developer" />
         </div>
 
         {/* Blur Divs */}
