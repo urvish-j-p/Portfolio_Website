@@ -28,7 +28,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I am</span>
           <span>Urvish Prajapati</span>
           <span>
-            A passionate Full Stack Developer having good amount of experience in React.js & Redux, producing the quality work.
+          A passionate Full Stack Developer skilled in React.js, Next.js & TypeScript, producing the quality work.
           </span>
         </div>
 
@@ -50,14 +50,14 @@ const Intro = () => {
         </div>
       </div>
       <div className="i-right">
-        <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img src={Vector1} alt="" style={{left:-50}}/>
+        <img src={Vector2} alt="" style={{left:-10}}/>
+        <img src={boy} alt="" style={{top:8}}/>
         <img src={glassesimoji} alt="" />
-        <div style={{ top: " -4%", left: "68%" }} className="floating-div">
-          <FloatingDiv image={Crown} txt1="MERN Stack" txt2="Developer" />
+        <div style={{ top: " 0%", left: "68%" }} className="floating-div">
+          <FloatingDiv image={Crown} txt1="Full Stack" txt2="Developer" />
         </div>
-        <div style={{ top: "18rem", left: "0rem" }} className="floating-div">
+        <div style={{ top: "15rem", left: "-1rem" }} className="floating-div">
           <FloatingDiv image={thumbup} txt1="React.js" txt2="Developer" />
         </div>
 

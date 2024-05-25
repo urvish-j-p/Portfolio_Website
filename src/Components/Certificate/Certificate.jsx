@@ -5,7 +5,6 @@ import "swiper/css";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import WebDevelopment from "../../img/WebDevelopment.jpg";
-import Python from "../../img/Python.png";
 import C from "../../img/C.png";
 import Cpp from "../../img/Cpp.png";
 
@@ -19,9 +18,6 @@ const Testimonials = () => {
     },
     {
       img: Cpp,
-    },
-    {
-      img: Python,
     },
   ];
 

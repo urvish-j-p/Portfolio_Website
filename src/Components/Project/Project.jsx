@@ -29,14 +29,6 @@ const Portfolio = () => {
       >
         <SwiperSlide>
           <a
-            href="https://emart-by-urvish.netlify.app/"
-            target="_blank"
-          >
-            <img src={eMart} alt="" style={{ width: "350px", height:"213px" }} />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a
             href="https://stack-overflow-by-urvish.netlify.app/"
             target="_blank"
           >
@@ -48,22 +40,15 @@ const Portfolio = () => {
             href="https://quicknote-by-urvish.vercel.app/"
             target="_blank"
           >
-            <img src={quicknote} alt="" style={{ width: "350px", height:"213px" }} />
+            <img src={quicknote} alt="" style={{ width: "350px", height:"213px"}} />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://weather-24x7.netlify.app/" target="_blank">
-            <img src={WeatherApp} alt="" style={{ width: "360px" }} />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://textutils-by-urvish.netlify.app/" target="_blank">
-            <img src={TextUtils} alt="" style={{ width: "354px" }} />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://note-keeper-by-urvish.netlify.app/" target="_blank">
-            <img src={Keeper} alt="" style={{ width: "370px" }} />
+          <a
+            href="https://emart-by-urvish.netlify.app/"
+            target="_blank"
+          >
+            <img src={eMart} alt="" style={{ width: "350px", height:"213px" }} />
           </a>
         </SwiperSlide>
       </Swiper>

@@ -51,5 +51,8 @@ textarea{
     .c-right .user{
         width: 16rem;
     }
+    .formHeading{
+        text-align: center;
+    }
 
 }   
