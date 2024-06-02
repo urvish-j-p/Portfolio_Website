@@ -105,6 +105,7 @@
 }
 
 
+
 @media screen and (max-width: 480px) {
     .intro {
       flex-direction: column;
@@ -114,7 +115,7 @@
   
     .i-right {
       transform: scale(0.8);
-      left: -3rem;
+      left: -5rem;
     }
     .i-right .blur {
       display: none;
@@ -129,6 +130,18 @@
     }
     .i-right>:nth-child(3) {
         bottom: 62px;
-        right: -47%;
+        right: -59%;
     }
+    .i-right>:nth-child(4) {
+        display: none;
+    }
+    .fd1{
+        left: 86% !important;
+    }
+    .fd2{
+        left: 16% !important;
+        top: 82% !important;
+    }
+  
+  
   }

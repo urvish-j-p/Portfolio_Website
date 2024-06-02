@@ -28,7 +28,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I am</span>
           <span>Urvish Prajapati</span>
           <span>
-          A passionate Full Stack Developer skilled in React.js, Next.js & TypeScript, producing the quality work.
+          A passionate Full Stack Developer skilled in MERN, Next.js & TypeScript, producing the quality work.
           </span>
         </div>
 
@@ -50,14 +50,14 @@ const Intro = () => {
         </div>
       </div>
       <div className="i-right">
-        <img src={Vector1} alt="" style={{left:-50}}/>
-        <img src={Vector2} alt="" style={{left:-10}}/>
+        <img src={Vector1} alt="" style={{left:-50}} className="v1"/>
+        <img src={Vector2} alt="" style={{left:-10}} className="v2"/>
         <img src={boy} alt="" style={{top:8}}/>
         <img src={glassesimoji} alt="" />
-        <div style={{ top: " 0%", left: "68%" }} className="floating-div">
+        <div style={{ top: " 0%", left: "68%" }} className="floating-div fd1">
           <FloatingDiv image={Crown} txt1="Full Stack" txt2="Developer" />
         </div>
-        <div style={{ top: "15rem", left: "-1rem" }} className="floating-div">
+        <div style={{ top: "15rem", left: "-1rem" }} className="floating-div fd2">
           <FloatingDiv image={thumbup} txt1="React.js" txt2="Developer" />
         </div>
 
