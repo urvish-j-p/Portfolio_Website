@@ -20,10 +20,10 @@ const Footer = () => {
             <a href="https://www.instagram.com/urvish_j_p/" target="_blank">
           <Insta color="white" size={"2rem"} />
           </a>
-            <a href="https://www.facebook.com/urvish.prajapati.167" target="_blank">
+            <a href="https://www.facebook.com/urvish.j.p" target="_blank">
             <Facebook color="white" size={"2rem"} />
           </a>
-            <a href="https://twitter.com/UrvishJP" target="_blank">
+            <a href="https://x.com/urvish_j_p" target="_blank">
             <Twitter color="white" size={"2rem"} />
           </a>
         </div>
