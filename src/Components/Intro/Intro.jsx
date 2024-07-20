@@ -38,7 +38,7 @@ const Intro = () => {
         </Link>
         </button> */}
         <div className="i-icons">
-          <a href="https://github.com/UrvishJP" target="_blank">
+          <a href="https://github.com/urvish-j-p" target="_blank">
             <img src={Github} alt="" />
           </a>
           <a href="https://www.linkedin.com/in/urvish-j-p/" target="_blank">
